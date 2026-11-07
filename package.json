@@ -1,0 +1,26 @@
+{
+  "name": "smartroute-ai-root",
+  "version": "1.0.0",
+  "description": "SmartRoute AI - AI-Based Traffic Congestion Prediction and Smart Route Optimization",
+  "type": "module",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "start:ai": "python -m uvicorn app.main:app --app-dir ai-service --host 127.0.0.1 --port 8001",
+    "build:frontend": "cd frontend && npm run build",
+    "test:ai": "python tests/test_ai_service.py",
+    "test:nav": "node tests/test_navigation_math.js",
+    "test:backend": "node tests/run_full_system_test.js",
+    "test": "npm run test:ai && npm run test:nav && npm run test:backend"
+  },
+  "keywords": [
+    "smart-routing",
+    "traffic-prediction",
+    "machine-learning",
+    "bpr-simulation",
+    "openstreetmap",
+    "techthon"
+  ],
+  "author": "SmartRoute AI Engineering Team",
+  "license": "MIT"
+}

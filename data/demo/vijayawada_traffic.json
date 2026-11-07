@@ -1,0 +1,298 @@
+{
+  "city": "Vijayawada",
+  "state": "Andhra Pradesh",
+  "country": "India",
+  "center": {
+    "lat": 16.5062,
+    "lng": 80.6480,
+    "zoom": 13
+  },
+  "intersections": [
+    { "id": "INT-01", "name": "Pandit Nehru Bus Station (PNBS)", "lat": 16.5117, "lng": 80.6186, "type": "transit_hub" },
+    { "id": "INT-02", "name": "Vijayawada Junction Railway Station", "lat": 16.5183, "lng": 80.6200, "type": "railway_hub" },
+    { "id": "INT-03", "name": "Prakasam Barrage / Durga Temple", "lat": 16.5152, "lng": 80.6063, "type": "landmark" },
+    { "id": "INT-04", "name": "Police Control Room (PCR Junction)", "lat": 16.5125, "lng": 80.6280, "type": "major_junction" },
+    { "id": "INT-05", "name": "Benz Circle (NH-16 & MG Road)", "lat": 16.5015, "lng": 80.6508, "type": "major_junction" },
+    { "id": "INT-06", "name": "Governorpet / Besant Road", "lat": 16.5135, "lng": 80.6345, "type": "commercial" },
+    { "id": "INT-07", "name": "Ramavarappadu Ring (NH-16 / Eluru Rd)", "lat": 16.5255, "lng": 80.6720, "type": "major_junction" },
+    { "id": "INT-08", "name": "Gunadala Junction (Eluru Road)", "lat": 16.5190, "lng": 80.6560, "type": "arterial" },
+    { "id": "INT-09", "name": "Auto Nagar Gate (MG Road Extension)", "lat": 16.4950, "lng": 80.6720, "type": "industrial" },
+    { "id": "INT-10", "name": "Kanaka Durga Varadhi (South Entry)", "lat": 16.4940, "lng": 80.6110, "type": "bridge" }
+  ],
+  "road_segments": [
+    {
+      "segment_id": "SEG-001",
+      "name": "MG Road (PCR to Benz Circle)",
+      "corridor": "Bandar Road Arterial",
+      "from_node": "INT-04",
+      "to_node": "INT-05",
+      "length_km": 3.2,
+      "free_flow_speed": 45,
+      "current_speed": 18,
+      "speed_limit": 50,
+      "capacity_vph": 2400,
+      "current_volume_vph": 2150,
+      "congestion_level": "heavy",
+      "congestion_index": 0.72,
+      "delay_seconds": 380,
+      "status": "CONGESTED",
+      "coordinates": [
+        [16.5125, 80.6280],
+        [16.5100, 80.6350],
+        [16.5060, 80.6420],
+        [16.5015, 80.6508]
+      ]
+    },
+    {
+      "segment_id": "SEG-002",
+      "name": "Eluru Road (Station to Gunadala)",
+      "corridor": "Eluru Road Arterial",
+      "from_node": "INT-02",
+      "to_node": "INT-08",
+      "length_km": 4.1,
+      "free_flow_speed": 40,
+      "current_speed": 22,
+      "speed_limit": 45,
+      "capacity_vph": 2100,
+      "current_volume_vph": 1750,
+      "congestion_level": "moderate",
+      "congestion_index": 0.52,
+      "delay_seconds": 290,
+      "status": "MODERATE",
+      "coordinates": [
+        [16.5183, 80.6200],
+        [16.5160, 80.6310],
+        [16.5175, 80.6430],
+        [16.5190, 80.6560]
+      ]
+    },
+    {
+      "segment_id": "SEG-003",
+      "name": "Gunadala to Ramavarappadu Ring",
+      "corridor": "Eluru Road North",
+      "from_node": "INT-08",
+      "to_node": "INT-07",
+      "length_km": 2.3,
+      "free_flow_speed": 45,
+      "current_speed": 28,
+      "speed_limit": 50,
+      "capacity_vph": 2200,
+      "current_volume_vph": 1400,
+      "congestion_level": "low",
+      "congestion_index": 0.35,
+      "delay_seconds": 90,
+      "status": "FREE_FLOW",
+      "coordinates": [
+        [16.5190, 80.6560],
+        [16.5215, 80.6630],
+        [16.5255, 80.6720]
+      ]
+    },
+    {
+      "segment_id": "SEG-004",
+      "name": "NH-16 Express Corridor (Benz Circle to Ramavarappadu)",
+      "corridor": "National Highway Bypass",
+      "from_node": "INT-05",
+      "to_node": "INT-07",
+      "length_km": 3.8,
+      "free_flow_speed": 60,
+      "current_speed": 48,
+      "speed_limit": 65,
+      "capacity_vph": 3600,
+      "current_volume_vph": 2100,
+      "congestion_level": "low",
+      "congestion_index": 0.22,
+      "delay_seconds": 65,
+      "status": "FREE_FLOW",
+      "coordinates": [
+        [16.5015, 80.6508],
+        [16.5100, 80.6580],
+        [16.5180, 80.6650],
+        [16.5255, 80.6720]
+      ]
+    },
+    {
+      "segment_id": "SEG-005",
+      "name": "Prakasam Barrage to PNBS Approach",
+      "corridor": "Riverfront Corridor",
+      "from_node": "INT-03",
+      "to_node": "INT-01",
+      "length_km": 1.6,
+      "free_flow_speed": 35,
+      "current_speed": 24,
+      "speed_limit": 40,
+      "capacity_vph": 1800,
+      "current_volume_vph": 1100,
+      "congestion_level": "low",
+      "congestion_index": 0.31,
+      "delay_seconds": 55,
+      "status": "FREE_FLOW",
+      "coordinates": [
+        [16.5152, 80.6063],
+        [16.5135, 80.6120],
+        [16.5117, 80.6186]
+      ]
+    },
+    {
+      "segment_id": "SEG-006",
+      "name": "PNBS to PCR Junction",
+      "corridor": "City Center Link",
+      "from_node": "INT-01",
+      "to_node": "INT-04",
+      "length_km": 1.2,
+      "free_flow_speed": 35,
+      "current_speed": 14,
+      "speed_limit": 40,
+      "capacity_vph": 2000,
+      "current_volume_vph": 1850,
+      "congestion_level": "heavy",
+      "congestion_index": 0.78,
+      "delay_seconds": 185,
+      "status": "CONGESTED",
+      "coordinates": [
+        [16.5117, 80.6186],
+        [16.5120, 80.6230],
+        [16.5125, 80.6280]
+      ]
+    },
+    {
+      "segment_id": "SEG-007",
+      "name": "Benz Circle to Auto Nagar",
+      "corridor": "Bandar Road South-East",
+      "from_node": "INT-05",
+      "to_node": "INT-09",
+      "length_km": 2.6,
+      "free_flow_speed": 50,
+      "current_speed": 38,
+      "speed_limit": 50,
+      "capacity_vph": 2400,
+      "current_volume_vph": 1500,
+      "congestion_level": "low",
+      "congestion_index": 0.28,
+      "delay_seconds": 70,
+      "status": "FREE_FLOW",
+      "coordinates": [
+        [16.5015, 80.6508],
+        [16.4980, 80.6600],
+        [16.4950, 80.6720]
+      ]
+    },
+    {
+      "segment_id": "SEG-008",
+      "name": "Kanaka Durga Varadhi to Benz Circle",
+      "corridor": "NH-16 South Inbound",
+      "from_node": "INT-10",
+      "to_node": "INT-05",
+      "length_km": 4.5,
+      "free_flow_speed": 60,
+      "current_speed": 34,
+      "speed_limit": 65,
+      "capacity_vph": 3200,
+      "current_volume_vph": 2400,
+      "congestion_level": "moderate",
+      "congestion_index": 0.49,
+      "delay_seconds": 190,
+      "status": "MODERATE",
+      "coordinates": [
+        [16.4940, 80.6110],
+        [16.4960, 80.6250],
+        [16.4980, 80.6380],
+        [16.5015, 80.6508]
+      ]
+    }
+  ],
+  "incidents": [
+    {
+      "incident_id": "INC-01",
+      "title": "Commercial Vehicle Breakdown near Benz Circle Flyover Ramp",
+      "type": "breakdown",
+      "severity": "major",
+      "road_name": "MG Road / Benz Circle",
+      "lat": 16.5028,
+      "lng": 80.6488,
+      "impact": "Right lane blocked. Causes ~7 min delay on inbound traffic.",
+      "reported_at": "2026-11-06T14:45:00Z",
+      "cleared_eta": "2026-11-06T16:15:00Z"
+    },
+    {
+      "incident_id": "INC-02",
+      "title": "Drainage Pipeline Maintenance near Gunadala Church",
+      "type": "construction",
+      "severity": "minor",
+      "road_name": "Eluru Road",
+      "lat": 16.5195,
+      "lng": 80.6540,
+      "impact": "Speed restricted to 20 km/h over 300m stretch.",
+      "reported_at": "2026-11-06T09:00:00Z",
+      "cleared_eta": "2026-11-06T18:00:00Z"
+    }
+  ],
+  "weather_scenarios": {
+    "clear": {
+      "condition": "Clear Sky",
+      "temp_c": 32.5,
+      "humidity": 55,
+      "precipitation_mm": 0,
+      "wind_kph": 12.0,
+      "visibility_km": 10.0,
+      "traffic_impact_factor": 1.0,
+      "description": "Standard dry road conditions with optimal visibility."
+    },
+    "monsoon": {
+      "condition": "Heavy Monsoon Downpour",
+      "temp_c": 25.8,
+      "humidity": 92,
+      "precipitation_mm": 38.5,
+      "wind_kph": 28.5,
+      "visibility_km": 3.5,
+      "traffic_impact_factor": 1.45,
+      "description": "Waterlogging on lower MG Road; average speeds reduced by 30-40%."
+    },
+    "heatwave": {
+      "condition": "Severe Summer Heat",
+      "temp_c": 41.2,
+      "humidity": 40,
+      "precipitation_mm": 0,
+      "wind_kph": 8.0,
+      "visibility_km": 8.0,
+      "traffic_impact_factor": 1.15,
+      "description": "Elevated vehicle engine temperatures, higher AC fuel consumption."
+    },
+    "fog": {
+      "condition": "Dense Morning Mist",
+      "temp_c": 21.0,
+      "humidity": 88,
+      "precipitation_mm": 0,
+      "wind_kph": 5.0,
+      "visibility_km": 1.2,
+      "traffic_impact_factor": 1.30,
+      "description": "Reduced sightlines on Krishna River bridges; cautious driving speeds."
+    }
+  },
+  "historical_hourly_pattern": [
+    { "hour": 0, "avg_congestion": 0.08, "avg_speed": 48 },
+    { "hour": 1, "avg_congestion": 0.05, "avg_speed": 50 },
+    { "hour": 2, "avg_congestion": 0.04, "avg_speed": 50 },
+    { "hour": 3, "avg_congestion": 0.05, "avg_speed": 49 },
+    { "hour": 4, "avg_congestion": 0.09, "avg_speed": 47 },
+    { "hour": 5, "avg_congestion": 0.16, "avg_speed": 44 },
+    { "hour": 6, "avg_congestion": 0.28, "avg_speed": 40 },
+    { "hour": 7, "avg_congestion": 0.45, "avg_speed": 34 },
+    { "hour": 8, "avg_congestion": 0.74, "avg_speed": 24 },
+    { "hour": 9, "avg_congestion": 0.88, "avg_speed": 18 },
+    { "hour": 10, "avg_congestion": 0.81, "avg_speed": 21 },
+    { "hour": 11, "avg_congestion": 0.62, "avg_speed": 28 },
+    { "hour": 12, "avg_congestion": 0.54, "avg_speed": 31 },
+    { "hour": 13, "avg_congestion": 0.49, "avg_speed": 33 },
+    { "hour": 14, "avg_congestion": 0.52, "avg_speed": 32 },
+    { "hour": 15, "avg_congestion": 0.58, "avg_speed": 29 },
+    { "hour": 16, "avg_congestion": 0.69, "avg_speed": 26 },
+    { "hour": 17, "avg_congestion": 0.86, "avg_speed": 19 },
+    { "hour": 18, "avg_congestion": 0.92, "avg_speed": 16 },
+    { "hour": 19, "avg_congestion": 0.87, "avg_speed": 18 },
+    { "hour": 20, "avg_congestion": 0.65, "avg_speed": 27 },
+    { "hour": 21, "avg_congestion": 0.46, "avg_speed": 34 },
+    { "hour": 22, "avg_congestion": 0.26, "avg_speed": 41 },
+    { "hour": 23, "avg_congestion": 0.14, "avg_speed": 46 }
+  ]
+}
